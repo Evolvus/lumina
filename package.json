@@ -1,0 +1,31 @@
+{
+  "name": "lumina",
+  "version": "1.0.0",
+  "description": "Lumina is an internal community hub for developers at Evolvus Solutions Pvt. Ltd.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolvus/lumina.git"
+  },
+  "author": "Evolvus Solutions Pvt. Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evolvus/lumina/issues"
+  },
+  "homepage": "https://Evolvus.github.io/lumina",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
