@@ -10,12 +10,6 @@ git --work-tree ./build add --all
 # Commit the built files
 git --work-tree ./build commit -m "Deploy to GitHub Pages"
 
-# Copy styles.css to build directory
-cp src/styles.css build/styles.css
-
-# Copy scripts.js to build directory
-cp src/scripts.js build/scripts.js
-
 # Push the `gh-pages` branch to the remote repository
 git push origin gh-pages
 
