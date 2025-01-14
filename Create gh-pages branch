@@ -1,0 +1,23 @@
+# Create a new branch named `gh-pages`
+git checkout --orphan gh-pages
+
+# Build the application
+npm run build
+
+# Add the built files to the `gh-pages` branch
+git --work-tree ./build add --all
+
+# Commit the built files
+git --work-tree ./build commit -m "Deploy to GitHub Pages"
+
+# Copy styles.css to build directory
+cp src/styles.css build/styles.css
+
+# Copy scripts.js to build directory
+cp src/scripts.js build/scripts.js
+
+# Push the `gh-pages` branch to the remote repository
+git push origin gh-pages
+
+# Switch back to the main branch
+git checkout main
