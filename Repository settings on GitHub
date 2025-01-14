@@ -1,0 +1,7 @@
+# Repository settings on GitHub
+
+1. Go to the repository on GitHub: https://github.com/Evolvus/lumina
+2. Click on the "Settings" tab.
+3. Scroll down to the "GitHub Pages" section.
+4. Under "Source", select the "gh-pages" branch from the dropdown menu.
+5. Click "Save" to apply the changes.
