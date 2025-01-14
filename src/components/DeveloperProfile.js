@@ -14,22 +14,6 @@ const DeveloperProfile = () => {
     fetchDevelopers();
   }, []);
 
-  const publishContribution = (developerId, contribution) => {
-    const updatedDevelopers = developers.map((developer) => {
-      if (developer.id === developerId) {
-        const updatedDeveloper = {
-          ...developer,
-          contributions: [...developer.contributions, contribution],
-          coins: developer.coins + 10, // Example coin reward
-        };
-        updateDeveloperLevel(updatedDeveloper);
-        return updatedDeveloper;
-      }
-      return developer;
-    });
-    setDevelopers(updatedDevelopers);
-  };
-
   const updateDeveloperLevel = (developer) => {
     if (developer.coins >= 100) {
       developer.level = 'Visionary';
