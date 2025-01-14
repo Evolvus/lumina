@@ -11,7 +11,7 @@ Lumina is an internal community hub for developers at Evolvus Solutions Pvt. Ltd
 - Automatically upgrading developer levels based on coin milestones.
 - Providing a leaderboard to track top contributors.
 - Offering a space to publish upcoming training sessions and record training-related activities.
-- Deploying the application using GitHub Actions to GitHub Pages.
+- Deploying the application using GitHub Actions to GitHub Pages. 
 - Ensuring a visually appealing UI using a standard CSS framework like Bootstrap or Material.
 
 ## Developer Levels
